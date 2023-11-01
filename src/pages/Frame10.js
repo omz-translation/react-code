@@ -87,7 +87,7 @@ const Frame10 = () => {
       </div>
       <div className={styles.copyOff1}>
         <div className={styles.copyOffChild} />
-        <div className{styles.copyOffItem} />
+        <div className={styles.copyOffItem} />
       </div>
       <img className={styles.goodOffIcon} alt="" src="/good-off.svg" />
       <img className={styles.switchIcon} alt="" src="/group-12.svg" />
