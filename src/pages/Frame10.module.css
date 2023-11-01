@@ -1,12 +1,12 @@
 .photoIcon {
-  height: 6.93%;
   width: 4.93%;
+  /* Adjust the height and position using percentages */
+  height: auto;
   top: 3.91%;
   right: 9.65%;
-  bottom: 89.16%;
-  left: 85.42%;
+  /* Remove absolute positioning for responsiveness */
+  position: relative;
   max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
