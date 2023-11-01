@@ -11,6 +11,13 @@
   object-fit: cover;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .photoIcon {
+    width: 10%; /* Adjust the width for smaller screens */
+    top: 5%; /* Adjust the top position */
+    right: 5%; /* Adjust the right position */
+  }
+}
 .curPage,
 .mz,
 .photoIcon {
