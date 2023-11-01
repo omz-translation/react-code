@@ -1,10 +1,12 @@
-import { useState, useRef, useCallback } from "react";
+import React, { useState, useRef, useCallback } from "react";
 import GroupComponent from "../components/GroupComponent";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import styles from "./Frame10.module.css";
 
 const Frame10 = () => {
+  const [inputText, setInputText] = useState(""); // 원문 입력 상태 추가
+  const [translation, setTranslation] = useState(""); // 번역 결과 상태 추가
   const photoImageRef = useRef(null);
   const [isGroupPopupOpen, setGroupPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -25,7 +27,30 @@ const Frame10 = () => {
     navigate("/1");
   }, [navigate]);
 
-  return (
+  const handleTranslateClick = useCallback(async () => {
+    try {
+      // "번역하기" 버튼 클릭 이벤트 핸들러
+      // 입력 텍스트를 가져와 번역 API를 호출하여 결과를 설정
+      const response = await fetch("/translate", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ text: inputText }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setTranslation(data.translated_text);
+      } else {
+        console.error("번역 실패");
+      }
+    } catch (error) {
+      console.error("번역 요청 오류:", error);
+    }
+  }, [inputText]);
+
+  return(
     <div className={styles.div}>
       <img
         className={styles.photoIcon}
@@ -63,14 +88,24 @@ const Frame10 = () => {
           </div>
         </div>
       </div>
-      <button className={styles.transButton} id="trans_button_">
+      <button className={styles.transButton} onClick={handleTranslateClick}>
         <div className={styles.transButtonChild} />
         <div className={styles.div6}>번역하기</div>
       </button>
       <div className={styles.backgroundLeft} />
-      <textarea className={styles.textarea} id="before_trans_" />
+      <textarea
+        className={styles.textarea}
+        id="before_trans_"
+        value={inputText}
+        onChange={(e) => setInputText(e.target.value)} // 입력 텍스트 업데이트
+      />
       <div className={styles.backgroundRight} />
-      <textarea className={styles.textarea1} id="after_trans_" />
+      <textarea
+        className={styles.textarea1}
+        id="after_trans_"
+        value={translation}
+        readOnly
+      />
       <div className={styles.div7}>0/5000</div>
       <div className={styles.child} />
       <div className={styles.mz4}>MZ 용어 자세히 알아보기</div>
