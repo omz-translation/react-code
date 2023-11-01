@@ -1,0 +1,218 @@
+.text {
+  position: absolute;
+  top: 888px;
+  left: 1165px;
+  text-align: left;
+  display: inline-block;
+  width: 106px;
+  height: 22px;
+}
+.avatarIcon {
+  height: 86.59%;
+  width: 5.83%;
+  top: 6.1%;
+  right: 0;
+  bottom: 7.32%;
+  left: 94.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.avatarIcon,
+.groupChild,
+.mz {
+  position: absolute;
+}
+.mz {
+  top: 19px;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187px;
+  height: 44px;
+}
+.groupChild {
+  top: 0;
+  left: 431px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7) inset;
+  width: 218px;
+  height: 82px;
+}
+.mz1 {
+  left: 262px;
+  width: 135px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.div1,
+.mz1,
+.mz2,
+.mz3 {
+  position: absolute;
+  top: 28px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+}
+.mz2 {
+  left: 495px;
+  color: var(--color-coral-100);
+  width: 99px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.div1,
+.mz3 {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.mz3 {
+  left: 692px;
+  width: 142px;
+  cursor: pointer;
+}
+.div1 {
+  left: 932px;
+  width: 99px;
+}
+.avatarParent {
+  position: absolute;
+  height: 8.01%;
+  width: 84.58%;
+  top: 3.42%;
+  right: 7.71%;
+  bottom: 88.57%;
+  left: 7.71%;
+  font-size: var(--font-size-5xl);
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 10px solid var(--color-coral-100);
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+.groupInner,
+.rectangleDiv {
+  position: absolute;
+  top: 33.1px;
+  left: 0;
+  background-color: var(--color-coral-100);
+  width: 12px;
+  height: 58.9px;
+  transform: rotate(-45.78deg);
+  transform-origin: 0 0;
+}
+.rectangleDiv {
+  top: 0;
+  left: 97.8px;
+  height: 93.1px;
+  transform: rotate(45.78deg);
+}
+.ellipseParent,
+.rectangleParent {
+  position: absolute;
+  top: 61.5px;
+  left: 46.2px;
+  width: 106.2px;
+  height: 75.4px;
+}
+.ellipseParent {
+  top: 0;
+  left: 217px;
+  width: 200px;
+  height: 200px;
+}
+.span {
+  font-weight: 800;
+}
+.span1 {
+  font-weight: 500;
+}
+.txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div2 {
+  top: 250px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 73px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.div2,
+.div3,
+.groupParent {
+  position: absolute;
+  width: 634px;
+}
+.div3 {
+  top: 323px;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 73px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.groupParent {
+  top: 367px;
+  left: 432px;
+  height: 396px;
+  font-size: var(--font-size-29xl);
+}
+.groupChild1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 141.95px);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-coral-100);
+  width: 283.9px;
+  height: 75.5px;
+}
+.div4 {
+  position: absolute;
+  top: 18px;
+  left: 34.2px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 215.4px;
+  height: 39.6px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 858px;
+  left: calc(50% + 297px);
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 283.9px;
+  height: 75.5px;
+  cursor: pointer;
+  font-size: var(--font-size-13xl);
+}
+.div {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
