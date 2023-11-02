@@ -1,12 +1,12 @@
-import React, { useState, useRef, useCallback } from "react";
-import GroupComponent from "../components/GroupComponent";
-import PortalPopup from "../components/PortalPopup";
-import { useNavigate } from "react-router-dom";
-import styles from "./Frame10.module.css";
+import React, { useState, useRef, useCallback } from 'react';
+import GroupComponent from '../components/GroupComponent';
+import PortalPopup from '../components/PortalPopup';
+import { useNavigate } from 'react-router-dom';
+import styles from './Frame10.module.css';
 
-const Frame10 = () => {
-  const [inputText, setInputText] = useState(""); // 원문 입력 상태 추가
-  const [translation, setTranslation] = useState(""); // 번역 결과 상태 추가
+function Frame10() {
+  const [inputText, setInputText] = useState('');
+  const [translation, setTranslation] = useState('');
   const photoImageRef = useRef(null);
   const [isGroupPopupOpen, setGroupPopupOpen] = useState(false);
   const navigate = useNavigate();
@@ -20,21 +20,21 @@ const Frame10 = () => {
   }, []);
 
   const onMZText2Click = useCallback(() => {
-    navigate("/11");
+    navigate('/11');
   }, [navigate]);
 
   const onMZText3Click = useCallback(() => {
-    navigate("/1");
+    navigate('/1');
   }, [navigate]);
 
   const handleTranslateClick = useCallback(async () => {
     try {
       // "번역하기" 버튼 클릭 이벤트 핸들러
       // 입력 텍스트를 가져와 번역 API를 호출하여 결과를 설정
-      const response = await fetch("/translate", {
-        method: "POST",
+      const response = await fetch('/translate', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json",
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({ text: inputText }),
       });
@@ -43,14 +43,14 @@ const Frame10 = () => {
         const data = await response.json();
         setTranslation(data.translated_text);
       } else {
-        console.error("번역 실패");
+        console.error('번역 실패');
       }
     } catch (error) {
-      console.error("번역 요청 오류:", error);
+      console.error('번역 요청 오류:', error);
     }
   }, [inputText]);
 
-  return(
+  return (
     <div className={styles.div}>
       <img
         className={styles.photoIcon}
@@ -147,6 +147,6 @@ const Frame10 = () => {
       )}
     </div>
   );
-};
+}
 
 export default Frame10;
