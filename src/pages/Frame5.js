@@ -5,20 +5,24 @@ import styles from "./Frame5.module.css";
 const Frame5 = () => {
   const navigate = useNavigate();
 
+  const onMZTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
   const onMZText1Click = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {
-    navigate("/11");
-  }, [navigate]);
-
-  const onMZText3Click = useCallback(() => {
     navigate("/1");
   }, [navigate]);
 
+  const onMZText3Click = useCallback(() => {
+    navigate("/2");
+  }, [navigate]);
+
   const onGroupContainer4Click = useCallback(() => {
-    navigate("/");
+    navigate("/1");
   }, [navigate]);
 
   return (
@@ -26,7 +30,9 @@ const Frame5 = () => {
       <div className={styles.text}>{` `}</div>
       <div className={styles.avatarParent}>
         <img className={styles.avatarIcon} alt="" src="/avatar1@2x.png" />
-        <div className={styles.mz}>MZ</div>
+        <div className={styles.mz} onClick={onMZTextClick}>
+          MZ
+        </div>
         <div className={styles.groupChild} />
         <div className={styles.mz1} onClick={onMZText1Click}>
           MZ 번역기

@@ -1,11 +1,11 @@
 .text {
   position: absolute;
-  top: 888px;
-  left: 1165px;
+  height: 2.15%;
+  width: 7.36%;
+  top: 86.72%;
+  left: 80.9%;
   text-align: left;
   display: inline-block;
-  width: 106px;
-  height: 22px;
 }
 .avatarIcon {
   height: 86.59%;
@@ -25,28 +25,31 @@
   position: absolute;
 }
 .mz {
-  top: 19px;
+  height: 53.66%;
+  width: 15.35%;
+  top: 23.17%;
   left: 0;
   font-size: var(--font-size-21xl);
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 187px;
-  height: 44px;
+  cursor: pointer;
 }
 .groupChild {
+  height: 100%;
+  width: 17.9%;
   top: 0;
-  left: 431px;
+  right: 46.72%;
+  bottom: 0;
+  left: 35.39%;
   border-radius: var(--br-3xs);
   background-color: var(--color-gray-500);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7) inset;
-  width: 218px;
-  height: 82px;
 }
 .mz1 {
-  left: 262px;
-  width: 135px;
+  width: 11.08%;
+  left: 21.51%;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
@@ -55,17 +58,17 @@
 .mz2,
 .mz3 {
   position: absolute;
-  top: 28px;
+  height: 31.71%;
+  top: 34.15%;
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 26px;
 }
 .mz2 {
-  left: 495px;
+  width: 8.13%;
+  left: 40.64%;
   color: var(--color-coral-100);
-  width: 99px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
@@ -74,13 +77,13 @@
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 .mz3 {
-  left: 692px;
-  width: 142px;
+  width: 11.66%;
+  left: 56.81%;
   cursor: pointer;
 }
 .div1 {
-  left: 932px;
-  width: 99px;
+  width: 8.13%;
+  left: 76.52%;
 }
 .avatarParent {
   position: absolute;
@@ -94,44 +97,54 @@
 }
 .groupItem {
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
   border-radius: 50%;
   border: 10px solid var(--color-coral-100);
   box-sizing: border-box;
-  width: 200px;
-  height: 200px;
 }
 .groupInner,
 .rectangleDiv {
   position: absolute;
-  top: 33.1px;
+  height: 78.12%;
+  width: 10.83%;
+  top: 43.9%;
+  right: 89.17%;
+  bottom: -22.02%;
   left: 0;
   background-color: var(--color-coral-100);
-  width: 12px;
-  height: 58.9px;
   transform: rotate(-45.78deg);
   transform-origin: 0 0;
 }
 .rectangleDiv {
+  height: 123.47%;
   top: 0;
-  left: 97.8px;
-  height: 93.1px;
+  right: -3.25%;
+  bottom: -23.47%;
+  left: 92.42%;
   transform: rotate(45.78deg);
 }
 .ellipseParent,
 .rectangleParent {
   position: absolute;
-  top: 61.5px;
-  left: 46.2px;
-  width: 106.2px;
-  height: 75.4px;
+  height: 40.7%;
+  width: 55.4%;
+  top: 30.75%;
+  right: 21.5%;
+  bottom: 31.55%;
+  left: 23.1%;
 }
 .ellipseParent {
+  height: 50.51%;
+  width: 28.17%;
   top: 0;
-  left: 217px;
-  width: 200px;
-  height: 200px;
+  right: 35.92%;
+  bottom: 49.49%;
+  left: 35.92%;
 }
 .span {
   font-weight: 800;
@@ -143,64 +156,66 @@
   line-break: anywhere;
   width: 100%;
 }
-.div2 {
-  top: 250px;
+.div2,
+.div3 {
+  position: absolute;
+  height: 18.43%;
+  width: 100%;
+  top: 63.13%;
   left: 0;
   display: flex;
   align-items: center;
-  height: 73px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
-}
-.div2,
-.div3,
-.groupParent {
-  position: absolute;
-  width: 634px;
 }
 .div3 {
-  top: 323px;
-  left: 0;
+  width: 89.3%;
+  top: 81.57%;
+  left: 5.35%;
   font-size: var(--font-size-6xl);
   text-decoration: underline;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  height: 73px;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 .groupParent {
-  top: 367px;
-  left: 432px;
-  height: 396px;
+  position: absolute;
+  height: 38.67%;
+  width: 49.31%;
+  top: 35.84%;
+  right: 23.33%;
+  bottom: 25.49%;
+  left: 27.36%;
   font-size: var(--font-size-29xl);
 }
 .groupChild1 {
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0;
-  left: calc(50% - 141.95px);
+  right: 0;
+  bottom: 0;
+  left: 0;
   border-radius: var(--br-31xl);
   background-color: var(--color-coral-100);
-  width: 283.9px;
-  height: 75.5px;
 }
 .div4 {
   position: absolute;
-  top: 18px;
-  left: 34.2px;
+  height: 52.45%;
+  width: 75.87%;
+  top: 23.84%;
+  left: 12.05%;
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 215.4px;
-  height: 39.6px;
 }
 .rectangleGroup {
   position: absolute;
-  top: 858px;
-  left: calc(50% + 297px);
+  height: 7.37%;
+  width: 19.72%;
+  top: 83.79%;
+  right: 9.66%;
+  bottom: 8.84%;
+  left: 70.63%;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 283.9px;
-  height: 75.5px;
   cursor: pointer;
   font-size: var(--font-size-13xl);
 }

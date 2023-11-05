@@ -6,7 +6,7 @@ const QA = () => {
   const navigate = useNavigate();
 
   const onMZTextClick = useCallback(() => {
-    navigate("/1");
+    navigate("/2");
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {
@@ -14,11 +14,11 @@ const QA = () => {
   }, [navigate]);
 
   const onMZText3Click = useCallback(() => {
-    navigate("/");
+    navigate("/1");
   }, [navigate]);
 
   const onMZText4Click = useCallback(() => {
-    navigate("/1");
+    navigate("/2");
   }, [navigate]);
 
   const onGroupContainer12Click = useCallback(() => {

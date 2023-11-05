@@ -1,0 +1,94 @@
+.componentChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 4px #000;
+}
+.div,
+.div1 {
+  position: absolute;
+  height: 7.14%;
+  font-weight: 800;
+  display: inline-block;
+}
+.div {
+  width: 37.97%;
+  top: 67.86%;
+  left: 31.01%;
+  cursor: pointer;
+}
+.div1 {
+  width: 31.33%;
+  top: 79.4%;
+  left: 34.18%;
+}
+.componentItem {
+  position: absolute;
+  height: 40.66%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 59.34%;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--color-gray-1400);
+}
+.avatarIcon {
+  position: absolute;
+  height: 26.65%;
+  width: 30.7%;
+  top: 25.82%;
+  right: 64.56%;
+  bottom: 47.53%;
+  left: 4.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.a12345678gmailcom,
+.div2 {
+  position: absolute;
+  height: 7.14%;
+  width: 31.33%;
+  top: 31.59%;
+  left: 35.13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a12345678gmailcom {
+  height: 5.49%;
+  width: 68.99%;
+  top: 44.51%;
+  left: 29.43%;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-1300);
+}
+.componentParent,
+.rectangleParent {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+.rectangleParent {
+  position: relative;
+  width: 316px;
+  height: 364px;
+}
+.componentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

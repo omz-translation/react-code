@@ -14,11 +14,11 @@ const Frame8 = () => {
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {
-    navigate("/11");
+    navigate("/1");
   }, [navigate]);
 
   const onMZText3Click = useCallback(() => {
-    navigate("/1");
+    navigate("/2");
   }, [navigate]);
 
   const onGroupContainer5Click = useCallback(() => {
@@ -55,7 +55,7 @@ const Frame8 = () => {
         </div>
       </div>
       <div className={styles.inner}>
-        <div className={styles.groupInner} />
+        <div className={styles.groupChild} />
       </div>
       <div className={styles.item} />
       <div className={styles.rectangleDiv} />

@@ -1,102 +1,92 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
 import styles from "./Frame3.module.css";
 
 const Frame3 = () => {
-  const navigate = useNavigate();
-
-  const onMZTextClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onMZText1Click = useCallback(() => {
-    navigate("/11");
-  }, [navigate]);
-
-  const onMZText2Click = useCallback(() => {
-    navigate("/1");
-  }, [navigate]);
-
-  const onMZText3Click = useCallback(() => {
-    navigate("/1");
-  }, [navigate]);
-
-  const onGroupContainer7Click = useCallback(() => {
-    navigate("/qa");
-  }, [navigate]);
-
   return (
     <div className={styles.div}>
       <div className={styles.child} />
-      <img className={styles.avatarIcon} alt="" src="/avatar1@2x.png" />
-      <div className={styles.div1}>문의 사항</div>
-      <div className={styles.div2}>
-        문의 사항이 있으시다면 여기에 남겨주세요.
-      </div>
-      <div className={styles.rectangleParent}>
-        <div className={styles.groupChild} />
-        <div className={styles.mzParent}>
-          <div className={styles.mz} onClick={onMZTextClick}>
-            MZ 번역기
-          </div>
-          <div className={styles.mz1} onClick={onMZText1Click}>
-            MZ 사전
-          </div>
-          <div className={styles.mz2} onClick={onMZText2Click}>
-            MZ 커뮤니티
-          </div>
-          <div className={styles.div3}>도움말</div>
-        </div>
-      </div>
-      <div className={styles.mzGroup}>
-        <div className={styles.mz3} onClick={onMZText3Click}>
-          MZ 커뮤니티
-        </div>
-        <div className={styles.mz4}>MZ 밈 찾아보기</div>
-        <div className={styles.groupWrapper}>
-          <div className={styles.groupParent}>
-            <div className={styles.groupParent}>
-              <div className={styles.groupItem} />
-            </div>
-            <div className={styles.qA}>{`Q & A`}</div>
+      <div className={styles.div1}>
+        <div className={styles.item} />
+        <div className={styles.inner} />
+        <img className={styles.groupIcon} alt="" src="/group-12.svg" />
+        <div className={styles.groupDiv}>
+          <div className={styles.rectangleParent}>
+            <div className={styles.groupChild} />
+            <div className={styles.div2}>영어</div>
+            <img className={styles.groupItem} alt="" src="/rectangle-12.svg" />
+            <div className={styles.div3}>한국어</div>
           </div>
         </div>
+        <div className={styles.inner1}>
+          <div className={styles.rectangleParent}>
+            <div className={styles.groupInner} />
+            <div className={styles.div2}>영어</div>
+            <img className={styles.groupItem} alt="" src="/rectangle-121.svg" />
+            <div className={styles.div3}>한국어</div>
+          </div>
+        </div>
+        <div className={styles.rectangleContainer}>
+          <div className={styles.rectangleDiv} />
+          <div className={styles.div6}>번역하기</div>
+        </div>
+        <img
+          className={styles.volumeNoticeIcon}
+          alt=""
+          src="/volumenotice1.svg"
+        />
+        <img
+          className={styles.volumeNoticeIcon1}
+          alt=""
+          src="/volumenotice2.svg"
+        />
+        <div className={styles.child1} />
+        <div className={styles.child2} />
+        <div className={styles.div7}>0/5000</div>
+        <div className={styles.mz}>MZ 용어 자세히 알아보기</div>
+        <img className={styles.avatarIcon} alt="" src="/avatar1@2x.png" />
+        <img className={styles.goodTwoIcon} alt="" src="/goodtwo.svg" />
+        <img className={styles.goodTwoIcon1} alt="" src="/goodtwo1.svg" />
+        <div className={styles.rectangleParent1}>
+          <div className={styles.groupChild1} />
+          <div className={styles.groupChild2} />
+        </div>
+        <div className={styles.mz1}>MZ</div>
+        <div className={styles.rectangleParent2}>
+          <div className={styles.groupChild3} />
+          <div className={styles.mzParent}>
+            <div className={styles.mz2}>MZ 번역기</div>
+            <div className={styles.mz3}>MZ 사전</div>
+            <div className={styles.mz4}>MZ 커뮤니티</div>
+            <div className={styles.div8}>도움말</div>
+          </div>
+        </div>
+        <div className={styles.rectangleParent3}>
+          <div className={styles.groupChild4} />
+          <div className={styles.groupChild5} />
+        </div>
       </div>
-      <div className={styles.inner}>
-        <div className={styles.groupInner} />
-      </div>
-      <div className={styles.item} />
-      <div className={styles.rectangleDiv} />
-      <div className={styles.rectangleDiv} />
-      <div className={styles.child2} />
-      <div className={styles.div4}>제목</div>
-      <div className={styles.rectangleGroup} onClick={onGroupContainer7Click}>
-        <div className={styles.groupChild1} />
-        <div className={styles.div5}>{`등록하기 `}</div>
-      </div>
-      <div className={styles.div6}>
-        <span className={styles.txt}>
-          <p className={styles.p}>유의사항</p>
-          <ul className={styles.ul}>
-            <li className={styles.li}>
-              {" "}
-              보내주신 의견은 서비스 개선을 위해 소중히 활용하고 있습니다.
-            </li>
-            <li>
-              작성하신 내용에 욕설·성희롱 등의 내용이 포함된 경우 관련법령에
-              의거 처벌될 수 있습니다.
-            </li>
-          </ul>
+      <div className={styles.mzLoginContainer}>
+        <span className={styles.mzLoginContainer1}>
+          <span>MZ</span>
+          <span className={styles.span}> 번역</span>
+          <span> LOGIN</span>
         </span>
       </div>
-      <div className={styles.mz5}>MZ 커뮤니티</div>
-      <img className={styles.fileAdditionIcon} alt="" src="/fileaddition.svg" />
-      <textarea className={styles.textarea} placeholder="제목" id="qa_title_" />
-      <textarea
-        className={styles.textarea1}
-        placeholder="내용을 입력하세요."
-        id="qa_content_"
-      />
+      <div className={styles.groupParent}>
+        <div className={styles.rectangleWrapper}>
+          <div className={styles.groupChild6} />
+        </div>
+        <b className={styles.lOG}>L O G I N</b>
+      </div>
+      <img className={styles.child3} alt="" src="/group-125.svg" />
+      <div className={styles.child4} />
+      <div className={styles.username}>Username</div>
+      <div className={styles.password}>Password</div>
+      <img className={styles.lockIcon} alt="" src="/lock.svg" />
+      <div className={styles.rectangleParent4}>
+        <div className={styles.groupChild7} />
+        <div className={styles.div9}>계정이 없으신가요?</div>
+        <div className={styles.div10}>회원가입</div>
+      </div>
     </div>
   );
 };

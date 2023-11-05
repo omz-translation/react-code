@@ -3,40 +3,42 @@
   position: absolute;
 }
 .mz {
-  top: 54px;
-  left: 66px;
+  height: 4.3%;
+  width: 12.99%;
+  top: 5.27%;
+  left: 4.58%;
   font-size: var(--font-size-21xl);
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 187px;
-  height: 44px;
+  cursor: pointer;
 }
 .mz1 {
-  left: 315px;
-  width: 135px;
+  width: 9.38%;
+  left: 21.88%;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 .mz1,
 .mz2,
 .mz3 {
-  top: 63px;
+  height: 2.54%;
+  top: 6.15%;
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 26px;
+  cursor: pointer;
 }
 .mz2 {
   position: absolute;
-  left: 548px;
-  width: 99px;
+  width: 6.88%;
+  left: 38.06%;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .mz3 {
-  left: 745px;
-  width: 142px;
+  width: 9.86%;
+  left: 51.74%;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 .child,
@@ -45,85 +47,99 @@
   position: absolute;
 }
 .div1 {
-  top: 63px;
-  left: 985px;
+  height: 2.54%;
+  width: 6.88%;
+  top: 6.15%;
+  left: 68.4%;
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 99px;
-  height: 26px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
 }
 .child {
-  top: 31px;
-  left: 1221px;
-  width: 91px;
-  height: 94px;
+  height: 9.18%;
+  width: 6.32%;
+  top: 3.03%;
+  right: 8.89%;
+  bottom: 87.79%;
+  left: 84.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
-.inner,
-.item {
+.groupChild,
+.groupItem {
   position: absolute;
-  top: 173px;
-  left: calc(50% - 619px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
   background-color: var(--color-gray-200);
-  width: 1238px;
 }
-.item {
+.groupChild {
+  height: 100%;
+  bottom: 0;
   border-radius: var(--br-3xs);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  height: 785px;
 }
-.inner {
+.groupItem {
+  height: 36.98%;
+  bottom: 63.02%;
   border-radius: var(--br-3xs) var(--br-3xs) 0 0;
-  border-bottom: 3px solid rgba(19, 21, 23, 0.5);
+  border-bottom: 3px solid var(--color-gray-1600);
   box-sizing: border-box;
-  height: 287px;
 }
 .div2,
 .div3,
 .div4,
 .div5 {
   position: absolute;
-  text-align: right;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .div2 {
-  top: 191px;
-  left: calc(50% + 403px);
+  height: 9.92%;
+  width: 13.57%;
+  top: 2.06%;
+  left: 84.25%;
   font-size: var(--font-size-13xl);
   font-weight: 600;
   color: var(--color-coral-100);
-  width: 168px;
-  height: 77px;
 }
 .div3,
 .div4,
 .div5 {
-  top: 321px;
-  left: calc(50% + 390px);
+  height: 4.38%;
   font-weight: 500;
-  width: 178px;
-  height: 34px;
+}
+.div3 {
+  width: 14.38%;
+  top: 18.3%;
+  left: 83.28%;
 }
 .div4,
 .div5 {
-  top: 376px;
+  left: 85.14%;
+}
+.div4 {
+  width: 14.38%;
+  top: 25.26%;
+  cursor: pointer;
 }
 .div5 {
-  top: 266px;
-  left: calc(50% + 416px);
-  width: 152px;
+  width: 12.28%;
+  top: 11.98%;
 }
 .avatarIcon {
   position: absolute;
-  height: 19.53%;
-  width: 13.89%;
-  top: 20.51%;
-  right: 76.81%;
-  bottom: 59.96%;
-  left: 9.31%;
+  height: 25.77%;
+  width: 16.16%;
+  top: 4.77%;
+  right: 81.18%;
+  bottom: 69.46%;
+  left: 2.67%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -131,49 +147,64 @@
 }
 .div6 {
   position: absolute;
-  top: 269px;
-  left: 383px;
+  height: 3.35%;
+  width: 8%;
+  top: 12.37%;
+  left: 22.78%;
   font-size: var(--font-size-13xl);
   text-align: left;
   display: flex;
   align-items: center;
-  width: 99px;
-  height: 26px;
 }
-.groupIcon {
+.groupInner {
   position: absolute;
-  top: 267px;
-  left: 469px;
-  width: 35px;
-  height: 35px;
+  height: 4.51%;
+  width: 2.83%;
+  top: 12.11%;
+  right: 67.45%;
+  bottom: 83.38%;
+  left: 29.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .a12345678gmailcom {
   position: absolute;
-  top: 331px;
-  left: 383px;
+  height: 2.58%;
+  width: 23.83%;
+  top: 20.36%;
+  left: 22.78%;
   color: var(--color-gray-1300);
   text-align: left;
   display: flex;
   align-items: center;
-  width: 295px;
-  height: 20px;
 }
-.groupChild,
+.groupIcon {
+  position: absolute;
+  height: 4.51%;
+  width: 2.83%;
+  top: 24.74%;
+  right: 81.99%;
+  bottom: 70.75%;
+  left: 15.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleParent {
+  position: absolute;
+  height: 75.78%;
+  width: 85.97%;
+  top: 16.89%;
+  right: 7.01%;
+  bottom: 7.32%;
+  left: 7.01%;
+}
 .rectangleDiv {
   position: absolute;
-  border-radius: var(--br-3xs);
-}
-.rectangleDiv {
-  top: 457px;
-  left: 1355px;
-  background-color: var(--color-white);
-  width: 9px;
-  height: 264px;
-  opacity: 0.5;
-}
-.groupChild {
   top: 0;
   left: calc(50% - 540px);
+  border-radius: var(--br-3xs);
   background-color: var(--color-gray-700);
   width: 1080px;
   height: 105px;
@@ -236,16 +267,61 @@
   width: 339.6px;
   height: 68px;
 }
-.rectangleParent {
+.div12,
+.rectangleGroup {
   position: absolute;
-  top: 536px;
-  left: calc(50% - 539px);
+  top: 61px;
+  left: calc(50% - 537.5px);
   width: 1080px;
   height: 105px;
-  text-align: left;
-  font-size: var(--font-size-6xl);
 }
 .div12 {
+  top: 0;
+  left: calc(50% - 122.5px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 308px;
+  height: 53px;
+}
+.listAlphabetIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 592.5px);
+  width: 371px;
+  height: 53px;
+}
+.groupChild1 {
+  position: absolute;
+  top: 25px;
+  left: 286px;
+  background-color: var(--color-gray-1600);
+  width: 899px;
+  height: 3px;
+}
+.groupDiv {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 592.5px);
+  width: 1185px;
+  height: 53px;
+}
+.groupContainer {
+  position: relative;
+  width: 1185px;
+  height: 166px;
+  cursor: pointer;
+  z-index: 0;
+}
+.div13 {
   top: 0;
   left: calc(50% + 11.75px);
   font-weight: 600;
@@ -253,13 +329,13 @@
   align-items: center;
   width: 60.7px;
 }
-.div12,
+.container,
 .div13,
-.group {
+.div14 {
   position: absolute;
   height: 28px;
 }
-.div13 {
+.div14 {
   top: 0;
   left: calc(50% - 72.45px);
   font-weight: 600;
@@ -268,40 +344,128 @@
   align-items: center;
   width: 84.3px;
 }
-.group {
+.container {
   top: 39px;
   left: calc(50% + 364px);
   width: 144.9px;
 }
-.groupDiv,
-.rectangleGroup {
+.div16,
+.rectangleContainer {
   position: absolute;
-  left: calc(50% - 539px);
+  top: 79px;
+  left: calc(50% - 527.5px);
   width: 1080px;
   height: 105px;
 }
-.rectangleGroup {
-  top: 710px;
-  text-align: left;
-  font-size: var(--font-size-6xl);
+.div16 {
+  top: 19px;
+  left: calc(50% - 112.5px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 308px;
+  height: 53px;
 }
-.groupDiv {
-  top: 889px;
+.messagesOneIcon,
+.parent1 {
+  position: absolute;
+  top: 0;
+  height: 90px;
 }
-.child1,
-.div {
+.messagesOneIcon {
+  left: 0;
+  width: 90px;
   overflow: hidden;
 }
-.child1 {
+.parent1 {
+  left: calc(50% - 602.5px);
+  width: 391px;
+}
+.groupChild3 {
   position: absolute;
-  height: 3.42%;
-  width: 2.43%;
-  top: 35.64%;
-  right: 77.5%;
-  bottom: 60.94%;
-  left: 20.07%;
-  max-width: 100%;
-  max-height: 100%;
+  top: 44px;
+  left: 231px;
+  background-color: var(--color-gray-1600);
+  width: 974px;
+  height: 3px;
+}
+.groupParent2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 602.5px);
+  width: 1205px;
+  height: 90px;
+}
+.groupParent1 {
+  position: relative;
+  width: 1205px;
+  height: 184px;
+  cursor: pointer;
+  z-index: 1;
+}
+.rectangleWrapper {
+  position: absolute;
+  top: 65px;
+  left: calc(50% - 537.5px);
+  width: 1080px;
+  height: 105px;
+}
+.div17 {
+  left: calc(50% - 65.5px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 194px;
+  height: 53px;
+}
+.div17,
+.likeIcon,
+.parent2 {
+  position: absolute;
+  top: 0;
+}
+.likeIcon {
+  left: 0;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.parent2 {
+  left: calc(50% - 592.5px);
+  width: 257px;
+  height: 53px;
+}
+.groupChild5 {
+  position: absolute;
+  top: 27px;
+  left: 231px;
+  background-color: var(--color-gray-1600);
+  width: 954px;
+  height: 3px;
+}
+.groupParent3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 349px;
+  left: calc(50% - 582.5px);
+  width: 1185px;
+  height: 170px;
+  cursor: pointer;
+  z-index: 2;
+}
+.groupParent {
+  position: absolute;
+  height: 34.18%;
+  top: 50%;
+  bottom: 15.82%;
+  left: calc(50% - 610px);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xl);
 }
 .div {
   position: relative;
@@ -309,6 +473,7 @@
   background-color: var(--color-gray-400);
   width: 100%;
   height: 1024px;
+  overflow: hidden;
   text-align: center;
   font-size: var(--font-size-5xl);
   color: var(--color-white);

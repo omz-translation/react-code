@@ -6,7 +6,11 @@ const Frame6 = () => {
   const navigate = useNavigate();
 
   const onGroupContainer6Click = useCallback(() => {
-    navigate("/3");
+    navigate("/6");
+  }, [navigate]);
+
+  const onMZTextClick = useCallback(() => {
+    navigate("/");
   }, [navigate]);
 
   const onMZText1Click = useCallback(() => {
@@ -14,11 +18,11 @@ const Frame6 = () => {
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {
-    navigate("/11");
+    navigate("/1");
   }, [navigate]);
 
   const onMZText3Click = useCallback(() => {
-    navigate("/1");
+    navigate("/2");
   }, [navigate]);
 
   return (
@@ -31,7 +35,7 @@ const Frame6 = () => {
       </div>
       <div className={styles.groupParent}>
         <div className={styles.rectangleWrapper}>
-          <div className={styles.groupInner} />
+          <div className={styles.groupChild} />
         </div>
         <textarea
           className={styles.textarea}
@@ -56,7 +60,9 @@ const Frame6 = () => {
       <div className={styles.div7}>새로운 신조어를 등록해주세요 !</div>
       <div className={styles.avatarParent}>
         <img className={styles.avatarIcon} alt="" src="/avatar1@2x.png" />
-        <div className={styles.mz1}>MZ</div>
+        <div className={styles.mz1} onClick={onMZTextClick}>
+          MZ
+        </div>
         <div className={styles.groupChild1} />
         <div className={styles.mzParent}>
           <div className={styles.mz2} onClick={onMZText1Click}>

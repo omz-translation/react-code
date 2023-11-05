@@ -343,12 +343,14 @@
   overflow: hidden;
 }
 .backgroundChild {
-  top: calc(50% - 423.5px);
-  left: calc(50% - 500.5px);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: var(--color-gray-1000);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 1001px;
-  height: 847px;
 }
 .span {
   color: var(--color-white);
@@ -359,78 +361,91 @@
 }
 .mzLoginContainer {
   position: absolute;
-  top: 70px;
-  left: 291px;
+  height: 5.19%;
+  width: 41.76%;
+  top: 8.26%;
+  left: 29.07%;
   font-weight: 800;
   display: flex;
   align-items: center;
-  width: 418px;
-  height: 44px;
 }
 .background {
   position: absolute;
-  top: calc(50% - 424px);
-  left: calc(50% - 493px);
-  width: 1001px;
-  height: 847px;
+  height: 82.71%;
+  width: 69.51%;
+  top: 8.59%;
+  right: 14.72%;
+  bottom: 8.69%;
+  left: 15.76%;
   font-size: var(--font-size-29xl);
   color: var(--color-coral-100);
 }
 .ellipseDiv,
 .kakaoChild {
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
   background-color: var(--color-gold);
 }
 .kakaoChild {
   border-radius: var(--br-8xs);
-  width: 580px;
-  height: 100px;
 }
 .ellipseDiv {
   border-radius: 50%;
-  width: 93.2px;
-  height: 93.2px;
 }
 .image31Icon {
   position: absolute;
-  top: 7.8px;
-  left: 8.1px;
+  height: 83.26%;
+  width: 82.94%;
+  top: 8.37%;
+  right: 8.37%;
+  bottom: 8.37%;
+  left: 8.69%;
   border-radius: var(--br-8xs);
-  width: 77.3px;
-  height: 77.6px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
-.div8,
 .ellipseParent {
   position: absolute;
-  top: 3px;
-  left: 47px;
-  width: 93.2px;
-  height: 93.2px;
+  height: 93.2%;
+  width: 16.07%;
+  top: 3%;
+  right: 75.83%;
+  bottom: 3.8%;
+  left: 8.1%;
 }
 .div8 {
-  top: 28px;
-  left: 22px;
+  position: absolute;
+  height: 44%;
+  width: 96.21%;
+  top: 28%;
+  left: 3.79%;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 558px;
-  height: 44px;
 }
 .googleChild,
 .kakao {
+  width: 100%;
   top: 0;
+  right: 0;
   left: 0;
-  width: 580px;
-  height: 100px;
 }
 .kakao {
   position: absolute;
+  height: 16.58%;
+  bottom: 83.42%;
 }
 .googleChild {
+  height: 100%;
+  bottom: 0;
   border-radius: var(--br-3xs);
 }
 .googleChild,
@@ -440,134 +455,175 @@
   background-color: var(--color-gray-100);
 }
 .googleItem {
+  height: 100%;
+  width: 100%;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
   border-radius: var(--br-8xs);
-  width: 580px;
-  height: 100px;
 }
 .googleInner {
-  top: 3px;
-  left: 39px;
+  height: 93.5%;
+  width: 16.12%;
+  top: 3%;
+  right: 77.16%;
+  bottom: 3.5%;
+  left: 6.72%;
   border-radius: 50%;
-  width: 93.5px;
-  height: 93.5px;
 }
 .image32Icon {
   position: absolute;
-  top: 20.8px;
-  left: 57.7px;
-  width: 56.1px;
-  height: 58px;
+  height: 58%;
+  width: 9.67%;
+  top: 20.8%;
+  right: 80.38%;
+  bottom: 21.2%;
+  left: 9.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
 .google,
 .naverChild {
   position: absolute;
-  top: 125px;
+  height: 16.58%;
+  width: 100%;
+  top: 20.73%;
+  right: 0;
+  bottom: 62.69%;
   left: 0;
-  width: 580px;
-  height: 100px;
 }
 .naverChild {
+  height: 100%;
   top: 0;
+  bottom: 0;
   border-radius: var(--br-8xs);
   background-color: #1dc800;
 }
 .naverItem {
   position: absolute;
-  top: 3px;
-  left: 39px;
-  width: 93.2px;
-  height: 93.2px;
+  height: 93.2%;
+  width: 16.07%;
+  top: 3%;
+  right: 77.21%;
+  bottom: 3.8%;
+  left: 6.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .faceChild,
 .naver {
   position: absolute;
+  width: 100%;
+  right: 0;
   left: 0;
-  width: 580px;
-  height: 100px;
 }
 .naver {
-  top: 250px;
+  height: 16.58%;
+  top: 41.46%;
+  bottom: 41.96%;
   color: var(--color-white);
 }
 .faceChild {
+  height: 100%;
   top: 0;
+  bottom: 0;
   border-radius: var(--br-8xs);
   background-color: #3b5998;
 }
 .image30Icon {
   position: absolute;
-  top: 3px;
-  left: 39px;
-  width: 93.2px;
-  height: 93.2px;
+  height: 93.2%;
+  width: 16.07%;
+  top: 3%;
+  right: 77.21%;
+  bottom: 3.8%;
+  left: 6.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
-.face {
+.appleChild,
+.face,
+.groupChild6 {
   position: absolute;
-  top: 375px;
+  width: 100%;
+  right: 0;
   left: 0;
-  width: 580px;
-  height: 100px;
+}
+.face {
+  height: 16.58%;
+  top: 62.19%;
+  bottom: 21.23%;
   color: var(--color-white);
 }
 .appleChild,
 .groupChild6 {
-  position: absolute;
+  height: 100%;
   top: 0;
-  left: 0;
+  bottom: 0;
   background-color: var(--color-white);
 }
 .appleChild {
   border-radius: var(--br-8xs);
-  width: 580px;
-  height: 100px;
 }
 .groupChild6 {
   border-radius: 50%;
-  width: 93.2px;
-  height: 93.2px;
 }
 .pxAppleLogosvg1Icon {
   position: absolute;
-  top: 15.2px;
-  left: 23px;
-  width: 47.2px;
-  height: 58.1px;
+  height: 62.34%;
+  width: 50.64%;
+  top: 16.31%;
+  right: 24.68%;
+  bottom: 21.35%;
+  left: 24.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
 }
-.apple1,
 .ellipseGroup {
   position: absolute;
-  top: 3px;
-  left: 36px;
-  width: 93.2px;
-  height: 93.2px;
+  height: 93.2%;
+  width: 16.07%;
+  top: 3%;
+  right: 77.72%;
+  bottom: 3.8%;
+  left: 6.21%;
 }
 .apple1 {
-  top: 28px;
-  left: 94px;
+  position: absolute;
+  height: 44%;
+  width: 72.07%;
+  top: 28%;
+  left: 16.21%;
   font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 418px;
-  height: 44px;
 }
 .apple,
 .loginButton {
   position: absolute;
-  top: 503px;
+  height: 16.58%;
+  width: 100%;
+  top: 83.42%;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 580px;
-  height: 100px;
 }
 .loginButton {
-  top: 260px;
-  left: 428px;
-  height: 603px;
+  height: 58.89%;
+  width: 40.28%;
+  top: 25.39%;
+  right: 30%;
+  bottom: 15.72%;
+  left: 29.72%;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
 }
