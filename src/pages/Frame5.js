@@ -6,11 +6,11 @@ const Frame5 = () => {
   const navigate = useNavigate();
 
   const onMZTextClick = useCallback(() => {
-    navigate("/");
+    navigate("/20");
   }, [navigate]);
 
   const onMZText1Click = useCallback(() => {
-    navigate("/");
+    navigate("/20");
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {

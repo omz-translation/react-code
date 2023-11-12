@@ -21,7 +21,7 @@ const Frame9 = () => {
   }, [navigate]);
 
   const onMZText1Click = useCallback(() => {
-    navigate("/");
+    navigate("/20");
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {

@@ -10,11 +10,11 @@ const Frame111 = () => {
   }, [navigate]);
 
   const onMZTextClick = useCallback(() => {
-    navigate("/");
+    navigate("/20");
   }, [navigate]);
 
   const onMZText1Click = useCallback(() => {
-    navigate("/");
+    navigate("/20");
   }, [navigate]);
 
   const onMZText3Click = useCallback(() => {

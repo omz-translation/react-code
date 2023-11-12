@@ -10,7 +10,7 @@ const QA = () => {
   }, [navigate]);
 
   const onMZText2Click = useCallback(() => {
-    navigate("/");
+    navigate("/20");
   }, [navigate]);
 
   const onMZText3Click = useCallback(() => {

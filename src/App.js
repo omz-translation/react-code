@@ -5,6 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Frame12 from "./pages/Frame12";
 import Frame10 from "./pages/Frame10";
 import Frame from "./pages/Frame";
 import Frame1 from "./pages/Frame1";
@@ -130,7 +131,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Frame10 />} />
+      <Route path="/" element={<Frame12 />} />
+      <Route path="/20" element={<Frame10 />} />
       <Route path="/5" element={<Frame />} />
       <Route path="/4" element={<Frame1 />} />
       <Route path="/3" element={<Frame2 />} />
