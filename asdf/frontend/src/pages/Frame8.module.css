@@ -1,0 +1,354 @@
+.child,
+.mz {
+  position: absolute;
+}
+.child {
+  height: 100%;
+  width: 19.44%;
+  top: 0;
+  right: 80.56%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--color-gray-200);
+}
+.mz {
+  height: 15.17%;
+  width: 82.22%;
+  top: 51.12%;
+  left: 8.89%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.groupChild,
+.rectangleWrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.groupChild {
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+.rectangleWrapper {
+  height: 33.71%;
+  bottom: 66.29%;
+}
+.mz1,
+.qA {
+  position: absolute;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qA {
+  height: 11.8%;
+  width: 82.22%;
+  top: 88.2%;
+  left: 8.44%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.mz1 {
+  height: 14.61%;
+  width: 69.78%;
+  top: 9.55%;
+  left: 14.67%;
+  color: var(--color-coral-100);
+}
+.avatarIcon,
+.mzParent {
+  position: absolute;
+  height: 17.38%;
+  width: 15.63%;
+  top: 17.68%;
+  right: 82.43%;
+  bottom: 64.94%;
+  left: 1.94%;
+}
+.avatarIcon {
+  height: 6.93%;
+  width: 4.93%;
+  top: 4.79%;
+  right: 7.78%;
+  bottom: 88.28%;
+  left: 87.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div1,
+.div2 {
+  height: 2.64%;
+  width: 35.14%;
+  left: 41.53%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.div1 {
+  position: absolute;
+  top: 18.36%;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.div2 {
+  top: 22.36%;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.div2,
+.groupItem,
+.mz2 {
+  position: absolute;
+}
+.groupItem {
+  height: 100%;
+  width: 28.35%;
+  top: 0;
+  right: 20.68%;
+  bottom: 0;
+  left: 50.98%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-500);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7) inset;
+}
+.mz2 {
+  width: 17.56%;
+  left: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.mz2,
+.mz3,
+.mz4 {
+  height: 100%;
+  top: 0;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.mz3 {
+  position: absolute;
+  width: 12.87%;
+  left: 30.3%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mz4 {
+  width: 18.47%;
+  left: 55.92%;
+  color: var(--color-coral-100);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.div3,
+.mz4,
+.mzGroup {
+  position: absolute;
+}
+.div3 {
+  height: 100%;
+  width: 12.87%;
+  top: 0;
+  left: 87.13%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.mzGroup {
+  height: 31.71%;
+  width: 100%;
+  top: 34.15%;
+  right: 0;
+  bottom: 34.15%;
+  left: 0;
+}
+.inner,
+.item,
+.rectangleParent {
+  position: absolute;
+  height: 8.01%;
+  width: 53.4%;
+  top: 4.3%;
+  right: 19.31%;
+  bottom: 87.7%;
+  left: 27.29%;
+}
+.inner,
+.item {
+  height: 53.22%;
+  width: 74.1%;
+  top: 41.02%;
+  right: 3.89%;
+  bottom: 5.76%;
+  left: 22.01%;
+}
+.item {
+  height: 25.78%;
+  width: 0.63%;
+  right: 1.67%;
+  bottom: 33.2%;
+  left: 97.71%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  opacity: 0.5;
+}
+.child2,
+.rectangleDiv {
+  position: absolute;
+  height: 8.11%;
+  width: 74.1%;
+  right: 3.89%;
+  left: 22.01%;
+  background-color: var(--color-gray-800);
+  border-top: 4px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  top: 31.05%;
+  bottom: 60.84%;
+  border-bottom: 4px solid var(--color-gray-200);
+}
+.child2 {
+  top: 82.62%;
+  bottom: 9.28%;
+}
+.div4,
+.textarea,
+.textarea1 {
+  font-weight: 500;
+  position: absolute;
+}
+.div4 {
+  height: 2.38%;
+  width: 7.78%;
+  top: 33.84%;
+  left: 22.78%;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+.textarea,
+.textarea1 {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-21xl);
+  height: 35.74%;
+  width: 71.67%;
+  top: 44.04%;
+  left: 24.44%;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.textarea1 {
+  height: 5.08%;
+  width: 59.93%;
+  top: 32.62%;
+  left: 31.18%;
+}
+.p {
+  margin: 0;
+}
+.txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.div5,
+.mz5 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.div5 {
+  height: 8.11%;
+  width: 73.19%;
+  top: 84.38%;
+  left: 22.01%;
+  font-weight: 500;
+  color: var(--color-gray-900);
+}
+.mz5 {
+  height: 10.06%;
+  width: 16.74%;
+  top: 4.2%;
+  left: 1.39%;
+  font-size: var(--font-size-17xl);
+  font-weight: 800;
+  justify-content: center;
+}
+.fileAdditionIcon {
+  position: absolute;
+  height: 3.52%;
+  width: 2.5%;
+  top: 33.4%;
+  right: 4.38%;
+  bottom: 63.09%;
+  left: 93.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupChild1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-coral-100);
+}
+.div6 {
+  position: absolute;
+  height: 52.48%;
+  width: 75.87%;
+  top: 23.76%;
+  left: 12.07%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleGroup {
+  position: absolute;
+  height: 4.93%;
+  width: 14.44%;
+  top: 24.02%;
+  right: 4.17%;
+  bottom: 71.04%;
+  left: 81.39%;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: var(--font-size-7xl);
+}
+.div {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

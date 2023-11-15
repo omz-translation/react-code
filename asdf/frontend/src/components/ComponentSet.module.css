@@ -1,0 +1,22 @@
+.property-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 1px;
+    position: relative;
+}
+
+.property-wrapper .volume-notice {
+    height: 42px !important;
+    position: relative !important;
+    transition: all 0.2s ease !important;
+    width: 44px !important;
+}
+
+.property-wrapper .volume-notice-instance {
+    height: 42px !important;
+    position: relative !important;
+    width: 44px !important;
+}

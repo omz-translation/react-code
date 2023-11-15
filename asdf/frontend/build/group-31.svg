@@ -1,0 +1,4 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.3636 12.2093C22.3636 18.1566 17.6608 22.9186 11.9318 22.9186C6.20281 22.9186 1.5 18.1566 1.5 12.2093C1.5 6.26202 6.20281 1.5 11.9318 1.5C17.6608 1.5 22.3636 6.26202 22.3636 12.2093Z" stroke="white" stroke-width="3"/>
+<line x1="1.5" y1="-1.5" x2="12.6421" y2="-1.5" transform="matrix(0.723177 0.690662 -0.673898 0.738825 18 20)" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</svg>
