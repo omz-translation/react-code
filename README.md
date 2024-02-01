@@ -5,7 +5,7 @@
   # MZ 번역기 모델
   일반 기계번역기와 다르게 대한민국의 MZ 신조어 언어도 번역이 가능하게 하도록 제작하는 것을 목표
   하지만 만들 수 있는 MZ 코퍼스 양이 적어 학습된 모델에 transfer training 방식을 이용하여 효과적으로 학습
-  학습된 모델을 만들기 위해 pre-trained model을 fine-tuning시켜 일반 번역기를 제작 후 제작한 MZ 코퍼스를 이용해 transfer training시켜 MZ번역기 모델을 제작
+  학습된 모델을 만들기 위해 pre-trained model을 fine-tuning시켜 일반 번역기를 제작 후 제작한 MZ 코퍼스를 이용해 한번 더 fine-tuning시켜 MZ번역기 모델을 제작
   
   # pre-trained model
   KETI-AIR/ke-t5-base 모델 사용
